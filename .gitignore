@@ -5,11 +5,6 @@ node_modules/
 .ipynb_checkpoints
 *.tsbuildinfo
 
-### Python ###
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
 
 # Distribution / packaging
 .Python
