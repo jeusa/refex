@@ -10,11 +10,7 @@ specifically and does not work with all kinds of formatting of the references. S
 forces of education expenditures
 
 ## Usage
-The command line tool can be found in the directory *executables*. Go into the directory matching your operating system.
-
-For Linux: go into *refex_exe*. There you will find a symbolic link to the executable with the name *refex* and a directory *refex_build*, which contains all the files necessary to execute the command tool. Use the command tool by typing `./refex`.
-
-For Windows: go into *refex_build*, which contains the executable and all the files necessary to execute the command tool. Use the command tool by typing `refex.exe`.
+The command-line tool can be found in the directory *executables*. Go into the directory matching your operating system. Then navigate to *refex_build*, which contains the executable and all the files necessary to execute the command-line tool. Use the command-line tool by typing `refex.exe` in Windows or `./refex` in Linux.
 
 **refex** generates a csv file for each paper containing all the extracted references if any are found. The name of the csv file will be the same as the one of the pdf file.
 
@@ -55,11 +51,7 @@ This tool uses the extracted references and does some postprocessing to bring th
 **postpro** generates 6 csv files, the most important ones being *papers.csv*, *authors.csv* and *cites.csv*. If no *output_dir* is specified, the csv files will be written to the parent directory of the *ref_info.csv*.
 
 ## Usage
-The command line tool can be found in the directory *executables*. Go into the directory matching your operating system.
-
-For Linux: go into *postpro_exe*. There you will find a symbolic link to the executable with the name *postpro* and a directory *postpro_build*, which contains all the files necessary to execute the command tool. Use the command tool by typing `./postpro`.
-
-For Windows: go into *postpro_build*, which contains the executable and all the files necessary to execute the command tool. Use the command tool by typing `postpro.exe`.
+The command-line tool can be found in the directory *executables*. Go into the directory matching your operating system. Then navigate to *postpro_build*, which contains the executable and all the files necessary to execute the command-line tool. Use the command-line tool by typing `postpro.exe` in Windows or `./postpro` in Linux.
 
 `postpro [-h] [-r [RECURSIVE]] [-sn] refs_dir refs_info [output_dir]`
 
